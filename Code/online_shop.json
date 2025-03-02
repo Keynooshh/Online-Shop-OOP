@@ -1,0 +1,66 @@
+{
+    "users": [
+        {
+            "username": "kk",
+            "email": "key@gmail",
+            "password": "2303",
+            "order": {
+                "user": "kk",
+                "products": [],
+                "total_price": 0
+            },
+            "cart": {
+                "user": "kk",
+                "products": []
+            }
+        },
+        {
+            "username": "Mk",
+            "email": "abc@email.com",
+            "password": "1234",
+            "order": {
+                "user": "Mk",
+                "products": [
+                    {
+                        "name": "cat collar",
+                        "price": 40.5,
+                        "description": "made of fabric\ncolored blue\nfor kittens and seniors"
+                    },
+                    {
+                        "name": "cat litter box",
+                        "price": 534,
+                        "description": "made of plastic\ncolored orange\nsutable for 2kg of cat litter"
+                    }
+                ],
+                "total_price": 574.5
+            },
+            "cart": {
+                "user": "Mk",
+                "products": [
+                    {
+                        "name": "cat food",
+                        "price": 100,
+                        "description": "made of duck"
+                    }
+                ]
+            }
+        }
+    ],
+    "products": [
+        {
+            "name": "cat collar",
+            "price": 40.5,
+            "description": "made of fabric\ncolored blue\nfor kittens and seniors"
+        },
+        {
+            "name": "cat litter box",
+            "price": 534,
+            "description": "made of plastic\ncolored orange\nsutable for 2kg of cat litter"
+        },
+        {
+            "name": "cat food",
+            "price": 100,
+            "description": "made of duck"
+        }
+    ]
+}
